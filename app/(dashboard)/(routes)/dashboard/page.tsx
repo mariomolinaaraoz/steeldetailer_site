@@ -1,15 +1,15 @@
 "use client";
 
-import { ArrowRight, MessageSquare, 
-    Music, ImageIcon, VideoIcon, Code } from "lucide-react";
+import { ArrowRight, MessageSquare, Music, ImageIcon, VideoIcon, Code } from "lucide-react";
 import { useRouter } from "next/navigation";
 import { Card } from "@/components/ui/card";
 import { cn } from "@/lib/utils";
+import Table from "@/components/layout/Table"
 
 
 const tools = [
   {
-    label: "Conversation",
+    label: "205 - Sector B",
     icon: MessageSquare,
     color: "text-violet-500",
     bgColor: "bg-text-violet-500/10",
@@ -79,6 +79,7 @@ const DashboardPage = () => {
           </Card>
         ))}
       </div>
+      <Table/>
     </div>
   );
 };

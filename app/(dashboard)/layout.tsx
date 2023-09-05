@@ -1,4 +1,4 @@
-import Navbar from "@/components/navbar";
+import Navbar from "@/components/layout/navbar";
 import Sidebar from "@/components/sidebar";
 
 const DashboardLayout = ({ 
